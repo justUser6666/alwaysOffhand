@@ -85,7 +85,6 @@
                 if (!stack.isEmpty()) {
                     int count = stack.getCount();
                     if (Registries.ITEM.getId(client.player.currentScreenHandler.getCursorStack().getItem()) == Registries.ITEM.getId(stack.getItem()) && isChanged) {
-                        System.out.println("씨발 왜 안돼");
                         client.player.getOffHandStack().setCount(count + client.player.currentScreenHandler.getCursorStack().getCount());
                         if ((count + client.player.currentScreenHandler.getCursorStack().getCount()) > stack.getMaxCount()) {
                             client.player.getOffHandStack().setCount(stack.getMaxCount());
