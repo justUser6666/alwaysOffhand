@@ -9,6 +9,8 @@ This mode is like vanilla F key actions, but is visible slot.
 - Q Key is not supported
 - Double Click is not supported
 - Slot Key is not supported
+- Shift Click is not supported
+- Hold another item and double click action is not supported
 - TouchScreeen mode is not supported  
 ---
 - Implemented using
