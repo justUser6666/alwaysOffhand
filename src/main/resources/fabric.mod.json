@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "always_offhand",
+  "version": "${version}",
+  "name": "alwaysOffhand",
+  "description": "Always can visible off-hand in GUI",
+  "authors": ["JustUser"],
+  "contact": {
+    "github": "https://playentry.org/justUser6666"
+  },
+  "license": "Unlicense",
+  "icon": "assets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["justUser.alwaysoffhand.main"]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
